@@ -190,9 +190,9 @@
         </div>
     </div>
     <!-- deal the day section -->
-    <section class="max-w-screen-5xl mx-auto px-8 md:px-16 lg:px-24 py-7 my-7  lg:my-20 bg-slate-400">
-        <div class="flex justify-between ">
-            <div class="flex-col justify-start  ">
+    <section class="max-w-screen-5xl mx-auto px-8 md:px-16 lg:px-24 py-7 md:my-7  lg:my-20 ">
+        <div class="md:flex justify-between  ">
+            <div class="flex-col md:w-1/2  justify-start  text-center md:text-left">
                 <h1 class="text-4xl my-5 font-bold">Deal of the day</h1>
                 <p class="text-lg">Contrary to popular belief, is not simply random text. It has roots in a piece of
                     <br>
@@ -201,15 +201,29 @@
                 </p>
             </div>
             <!-- timer -->
-            <div class=" my-5 text-4xl">
+            <div class=" my-8 md:my-3  md:grid md:grid-cols-2 flex lg:flex gap-3 md:gap-5 text-center justify-center">
                 <div>
-                    <h4 class="text-3xl font-bold mb-2">25</h4>
+                    <h4 class="text-5xl font-bold mb-2">29</h4>
+                    <p class=" text-lg  text-gray-700">Days</p>
+                </div>
+                <h3 class="text-4xl md:hidden lg:flex font-semibold">:</h3>
+                <div>
+                    <h4 class="text-5xl font-bold mb-2">15</h4>
+                    <p class=" text-lg  text-gray-700">Hours</p>
+                </div>
+                <h3 class="text-4xl  md:hidden  lg:flex font-semibold">:</h3>
+                <div>
+                    <h4 class="text-5xl font-bold mb-2 ">25</h4>
                     <p class=" text-lg  text-gray-700">Minutes</p>
+                </div>
+                <h3 class="text-4xl font-semibold lg:flex md:hidden">:</h3>
+                <div>
+                    <h4 class="text-5xl font-bold mb-2">08</h4>
+                    <p class=" text-lg  text-gray-700">Seconds</p>
                 </div>
 
             </div>
 
-        </div>
         </div>
 
     </section>
